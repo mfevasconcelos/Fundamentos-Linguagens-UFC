@@ -37,3 +37,6 @@ JavaScript, desenvolvida por Brendan Eich na Netscape, nasceu para ser uma lingu
 ## 2004: O impacto do Ruby on Rails na produtividade e no desenvolvimento web ágil.
 
 O ano de 2004 marcou o lançamento do framework Ruby on Rails, desenvolvido por David Heinemeier Hansson. Este framework, construído sobre a linguagem Ruby, popularizou o conceito de "convenção sobre configuração" e o desenvolvimento ágil, tornando o processo de criação de aplicações web muito mais rápido e eficiente. O Rails teve um impacto gigantesco na indústria de startups e influenciou o design de muitos outros frameworks em outras linguagens.
+
+---
+A linha do tempo foi compilada com base em fontes históricas e bibliográficas renomadas na área de ciência da computação e história da tecnologia. As principais referências incluem obras como Programming Languages: History and Fundamentals de Jean E. Sammet, e History of Programming Languages editado por Bergin e Gibson, além de artigos acadêmicos e fontes especializadas.
