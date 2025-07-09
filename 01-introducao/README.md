@@ -2,6 +2,8 @@
 
 Este sub-repositório contém uma linha do tempo com alguns dos acontecimentos mais importantes na história das linguagens de programação. O objetivo é entender como as linguagens de programação originaram-se e tornaram-se como conhecemos hoje.
 
+![Linha do Tempo](https://github.com/mfevasconcelos/Fundamentos-Linguagens-UFC/blob/main/01-introducao/timeline.jpg)
+
 Para entender melhor cada marco/ano contido na linha do tempo:
 
 ## 1843: O primeiro algoritmo de Ada Lovelace para a Máquina Analítica.
