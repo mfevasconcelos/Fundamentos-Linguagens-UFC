@@ -1,6 +1,6 @@
 # Ambientes de Programação
 
-Este sub-repositório contém um diagrama mostrando os diferentes funcionamentos dos ambientes de programação ("ou "tradutores") Compiladores, Interpretadores e Máquinas Virtuais com o objetivo de tornar evidente diferenças, vantagens e desvantagens dos mesmos.
+Este sub-repositório contém um diagrama mostrando os diferentes funcionamentos dos ambientes de programação Compiladores, Interpretadores e Máquinas Virtuais com o objetivo de tornar evidente diferenças, vantagens e desvantagens dos mesmos.
 
 ## Diagrama:
 ![Diagrama de Ambientes](https://github.com/mfevasconcelos/Fundamentos-Linguagens-UFC/blob/main/02-ambientes/diagrama-ambientes.jpg)
