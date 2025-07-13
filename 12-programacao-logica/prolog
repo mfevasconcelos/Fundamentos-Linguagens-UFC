@@ -1,0 +1,50 @@
+% Pessoas
+pessoa(leo).
+pessoa(maria).
+pessoa(pedro).
+pessoa(sofia).
+
+% Cargos
+cargo(analista_de_dados).
+cargo(dev_frontend).
+cargo(eng_devops).
+cargo(gerente_de_projeto).
+
+% Linguagens
+linguagem(python).
+linguagem(javascript).
+linguagem(go).
+linguagem(sql).
+
+% Regra auxiliar 
+diferentes([]).
+diferentes([PrimeiroItem | RestoDaLista]) :-
+    not(member(PrimeiroItem, RestoDaLista)),
+    diferentes(RestoDaLista).
+
+% Regra principal 
+solucao(Equipe) :-
+
+    Equipe = [
+        membro(leo,   CargoLeo,   LangLeo),
+        membro(maria, CargoMaria, LangMaria),
+        membro(pedro, CargoPedro, LangPedro),
+        membro(sofia, CargoSofia, LangSofia)
+    ],
+
+    Cargos = [CargoLeo, CargoMaria, CargoPedro, CargoSofia],
+    Linguagens = [LangLeo, LangMaria, LangPedro, LangSofia],
+    
+    diferentes(Cargos),
+    diferentes(Linguagens),
+
+    CargoMaria = gerente_de_projeto,
+
+    member(membro(_, dev_frontend, javascript), Equipe),
+
+    LangLeo = python,
+
+    CargoSofia = eng_devops,
+
+    member(membro(_, gerente_de_projeto, LangManager), Equipe),
+    LangManager \= go. % O operador \= significa "não é igual a".
