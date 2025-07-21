@@ -17,7 +17,7 @@ Este sub-reposiório armazena uma mini-grámatica fictícia de uma linguagem que
 - Separadores/Delimitadores (Separators/Delimiters): 
    - ( ) (parâmetros, condições);
    - {} (bloco de código);
-   - [ ] (vetores);
+   - [] (vetores);
    - ; e , (delimitadores) .
 - Comentários (Comments): //comentário
 
