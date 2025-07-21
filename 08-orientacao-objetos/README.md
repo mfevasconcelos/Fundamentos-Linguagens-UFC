@@ -10,19 +10,23 @@ Este sub-repositório armazena uma demonstração simples e prática de uma hier
 
 ## Conceitos de POO Demonstrados:
 1. Herança
+
 As classes Guerreiro, Mago e Arqueiro herdam (extends) da classe base Personagem.
 
 Elas reutilizam os atributos (nome, nivel, pontosDeVida) e métodos (exibirStatus) da superclasse, evitando a duplicação de código.
 
 2. Abstração
+
 A classe Personagem é abstract, definindo um "contrato" para todas as suas subclasses sem poder ser instanciada diretamente.
 
 O método atacar() é abstract, forçando que cada subclasse concreta forneça sua própria implementação específica, pois cada personagem ataca de uma maneira única.
 
 3. Polimorfismo
+
 Na classe Jogo, diferentes tipos de objetos (Guerreiro, Mago, Arqueiro) são adicionados a uma única lista do tipo List<Personagem>.
 
 Ao iterar sobre a lista e chamar o método p.atacar(), o Java invoca a implementação correta do método para cada objeto em tempo de execução. Isso torna o sistema flexível e fácil de estender.
 
 4. Encapsulamento
+
 Os atributos das classes são declarados como protected ou private, protegendo o estado interno dos objetos. O acesso e a modificação são controlados por meio de métodos públicos (getters, construtores, etc.).
