@@ -2,24 +2,24 @@
 Este sub-reposiório armazena uma mini-grámatica fictícia de uma linguagem que eu mesmo inventei com exemplo de análise léxica.
 
 ## Elementos básicos (Tokens):
-Palavras-Chave (Keywords): se, enquanto, para, retorna, principal, imprimir
-Identificadores (Identifiers): exs.: minhaVariavel, calcularSoma, numero1
-Operadores (Operators): 
-Aritméticos: +, -, *, /, %
-Comparação: ==, !=, <, >, <=, >=
-Lógicos: && (e), || (ou), ! (negação)
-Atribuição: =
-Literais (Literals): 
-Numéricos: 10, 3.14, -5
-Strings: "Olá, Mundo!" (frase), 'texto' (palavra)
-Booleanos: 1 (verdadeiro), 0 (falso)
-Tipos de variáveis e funções: inteiro, flutuante, vazio
-Separadores/Delimitadores (Separators/Delimiters): 
-    ( ) (parâmetros, condições);
-    {} (bloco de código);
-    [ ] (vetores);
-    ; e , (delimitadores) .
-Comentários (Comments): //comentário
+- Palavras-Chave (Keywords): se, enquanto, para, retorna, principal, imprimir
+- Identificadores (Identifiers): exs.: minhaVariavel, calcularSoma, numero1
+- Operadores (Operators): 
+- Aritméticos: +, -, *, /, %
+- Comparação: ==, !=, <, >, <=, >=
+- Lógicos: && (e), || (ou), ! (negação)
+- Atribuição: =
+- Literais (Literals): 
+- Numéricos: 10, 3.14, -5
+- Strings: "Olá, Mundo!" (frase), 'texto' (palavra)
+- Booleanos: 1 (verdadeiro), 0 (falso)
+- Tipos de variáveis e funções: inteiro, flutuante, vazio
+- Separadores/Delimitadores (Separators/Delimiters): 
+   - ( ) (parâmetros, condições);
+   - {} (bloco de código);
+   - [ ] (vetores);
+   - ; e , (delimitadores) .
+- Comentários (Comments): //comentário
 
 ## Regras de sintaxe:
 1. Um programa é uma sequência de declarações.
@@ -42,29 +42,29 @@ Comentários (Comments): //comentário
     }
 ### Saída do Lexer:
 O lexer percorre o código gerando uma lista de tokens:
-    TOKEN_TIPO: COMENTARIO, VALOR: "// exemplo simples"
-    TOKEN_TIPO: TIPO, VALOR: "inteiro"
-    TOKEN_TIPO: PALAVRA_CHAVE, VALOR: "principal"
-    TOKEN_TIPO: SEPARADOR, VALOR: "("
-    TOKEN_TIPO: SEPARADOR, VALOR: ")"
-    TOKEN_TIPO: SEPARADOR, VALOR: "{"
-    TOKEN_TIPO: TIPO, VALOR: "inteiro"
-    TOKEN_TIPO: IDENTIFICADOR, VALOR: "contador"
-    TOKEN_TIPO: OPERADOR_ATRIBUICAO, VALOR: "="
-    TOKEN_TIPO: LITERAL_NUMERICO, VALOR: "10"
-    TOKEN_TIPO: SEPARADOR, VALOR: ";"
-    TOKEN_TIPO: PALAVRA_CHAVE, VALOR: "se"
-    TOKEN_TIPO: SEPARADOR, VALOR: "("
-    TOKEN_TIPO: IDENTIFICADOR, VALOR: "contador"
-    TOKEN_TIPO: OPERADOR_COMPARACAO, VALOR: ">"
-    TOKEN_TIPO: LITERAL_NUMERICO, VALOR: "0"
-    TOKEN_TIPO: SEPARADOR, VALOR: ")"
-    TOKEN_TIPO: SEPARADOR, VALOR: "{"
-    TOKEN_TIPO: PALAVRA_CHAVE, VALOR: "imprimir"
-    TOKEN_TIPO: SEPARADOR, VALOR: "("
-    TOKEN_TIPO: LITERAL_STRING, VALOR: "\"Contador: \""
-    TOKEN_TIPO: SEPARADOR, VALOR: ","
-    TOKEN_TIPO: IDENTIFICADOR, VALOR: "contador"
-    TOKEN_TIPO: SEPARADOR, VALOR: ")"
-    TOKEN_TIPO: SEPARADOR, VALOR: ";"
-    TOKEN_TIPO: SEPARADOR, VALOR: "}"
+   - TOKEN_TIPO: COMENTARIO, VALOR: "// exemplo simples"
+   - TOKEN_TIPO: TIPO, VALOR: "inteiro"
+   - TOKEN_TIPO: PALAVRA_CHAVE, VALOR: "principal"
+   - TOKEN_TIPO: SEPARADOR, VALOR: "("
+   - TOKEN_TIPO: SEPARADOR, VALOR: ")"
+   - TOKEN_TIPO: SEPARADOR, VALOR: "{"
+   - TOKEN_TIPO: TIPO, VALOR: "inteiro"
+   - TOKEN_TIPO: IDENTIFICADOR, VALOR: "contador"
+   - TOKEN_TIPO: OPERADOR_ATRIBUICAO, VALOR: "="
+   - TOKEN_TIPO: LITERAL_NUMERICO, VALOR: "10"
+   - TOKEN_TIPO: SEPARADOR, VALOR: ";"
+   - TOKEN_TIPO: PALAVRA_CHAVE, VALOR: "se"
+   - TOKEN_TIPO: SEPARADOR, VALOR: "("
+   - TOKEN_TIPO: IDENTIFICADOR, VALOR: "contador"
+   - TOKEN_TIPO: OPERADOR_COMPARACAO, VALOR: ">"
+   - TOKEN_TIPO: LITERAL_NUMERICO, VALOR: "0"
+   - TOKEN_TIPO: SEPARADOR, VALOR: ")"
+   - TOKEN_TIPO: SEPARADOR, VALOR: "{"
+   - TOKEN_TIPO: PALAVRA_CHAVE, VALOR: "imprimir"
+   - TOKEN_TIPO: SEPARADOR, VALOR: "("
+   - TOKEN_TIPO: LITERAL_STRING, VALOR: "\"Contador: \""
+   - TOKEN_TIPO: SEPARADOR, VALOR: ","
+   - TOKEN_TIPO: IDENTIFICADOR, VALOR: "contador"
+   - TOKEN_TIPO: SEPARADOR, VALOR: ")"
+   - TOKEN_TIPO: SEPARADOR, VALOR: ";"
+   - TOKEN_TIPO: SEPARADOR, VALOR: "}"
