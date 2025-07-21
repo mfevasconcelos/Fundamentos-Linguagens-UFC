@@ -38,4 +38,4 @@ O projeto está organizado em 14 seções, cada uma explorando um conceito espec
 
 * **`13-scripts-web/`**: Apresenta um script em Python que automatiza a criação de flashcards para o software Anki, lendo um arquivo de vocabulário e convertendo-o para um formato de importação.
 
-* [cite_start]**`14-tendencias/`**: Oferece uma análise crítica sobre a linguagem de programação Rust, discutindo seus pontos fortes (segurança, performance, concorrência) e desafios (curva de aprendizado, tempo de compilação)[cite: 1, 69].
+* **`14-tendencias/`**: Oferece uma análise crítica sobre a linguagem de programação Rust, discutindo seus pontos fortes (segurança, performance, concorrência) e desafios (curva de aprendizado, tempo de compilação).
