@@ -42,3 +42,4 @@ O componente chave desse sistema é o Garbage Collector (GC). O GC é um process
 - Abstração: O desenvolvedor tem menos controle sobre o layout exato da memória e o momento exato em que a memória é liberada.
 
 ## Quadro Comparativo:
+![Comparativo Gestão de Memória](https://github.com/mfevasconcelos/Fundamentos-Linguagens-UFC/blob/main/10-gerenciamento-memoria/comparativo%20gest%C3%A3o%20de%20mem%C3%B3ria.jpg)
