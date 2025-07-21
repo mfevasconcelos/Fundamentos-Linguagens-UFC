@@ -2,7 +2,7 @@
 
 ## Visão Geral do Projeto
 
-Este repositório documenta a resolução dos 14 desafios propostos na disciplina de Fundamentos de Linguagens de Programação da Universidade Federal do Ceará (UFC), Campus Crateús. O objetivo do trabalho é aplicar de forma prática os conceitos teóricos estudados, abrangendo desde a história das linguagens até as tendências atuais do setor.
+Este repositório documenta a resolução dos 14 desafios propostos na disciplina de Fundamentos de Linguagens de Programação. O objetivo do trabalho é aplicar de forma prática os conceitos teóricos estudados, abrangendo desde a história das linguagens até as tendências atuais do setor.
 
 Cada diretório corresponde a um tópico fundamental, contendo uma explicação detalhada no seu próprio arquivo `README.md`, acompanhada de códigos, diagramas ou análises textuais.
 
