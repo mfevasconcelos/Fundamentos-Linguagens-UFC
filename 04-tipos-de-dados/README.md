@@ -2,6 +2,7 @@
 Este sub-repositório faz um comparativo entre as seguintes linguagens: C, Java e Python, com foco na tipagem de dados.
 
 ## Inicialmente, uma tabela ilustrando as principais diferenças:
+![Comparativo C, Java e Pytohn](https://github.com/mfevasconcelos/Fundamentos-Linguagens-UFC/blob/main/04-tipos-de-dados/Compara%C3%A7%C3%A3o%20C%2C%20Java%20e%20Python.jpg)
 
 ## C
 Linguagem de baixo nível, mais próxima do hardware do computador. Isso dá a ela um controle muito grande sobre a memória e outros recursos, resultando em programas extremamente rápidos. No entanto, essa proximidade com o hardware também a torna mais complexa para aprender e programar, exigindo que seja preciso gerenciar manualmente muitos detalhes.
