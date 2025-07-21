@@ -20,11 +20,15 @@ O cenário personalizado escolhido foi uma **"Rotina de Manutenção de Sistema"
 ### Execução sequencial (sem concorrência)
 No arquivo de código em python nomeado como processo.py ilustra uma execução sequencial, sem concorrência.
 Nele, as tarefas são executadas uma após a outra, uma tarefa só é iniciada quando a anterior termina.
+
 **Tempo de execução:**
+
 Como as tarefas serão executadas uma após a outra. O tempo total será a soma de todas as tarefas (3 + 5 + 2 = 10 segundos).
 
 ### Execução concorrente (com threads)
 No arquivo de código em python nomeado como thread.py ilustra uma execução concorrente, o qual executa todas as tarefas "ao mesmo tempo".
 Nele, o programa principal inicia todas as tarefas e depois aguarda até que a última terminem.
+
 **Tempo de execução:**
+
 O tempo total será aproximadamente o tempo da tarefa mais longa (5 segundos), pois as outras ocorreram durante esse mesmo período.
