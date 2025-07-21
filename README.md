@@ -1,4 +1,4 @@
-# Trabalho Final: Fundamentos de Linguagens de Programação 
+# Trabalho de Fundamentos de Linguagens de Programação 
 
 ## Visão Geral do Projeto
 
