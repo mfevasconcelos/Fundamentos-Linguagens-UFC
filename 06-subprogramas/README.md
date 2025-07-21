@@ -43,6 +43,7 @@ Saída do subprograma:
 Quando um objeto é passado para um método em Java, o que é passado é a referência (o endereço de memória) para aquele objeto. Isso significa que se usar a referência para modificar o estado interno do objeto (ex.: algum atributo), a alteração será visível fora do método, pois está sendo trabalhado dentro do objeto original.
 
 Saída do subprograma:
+
 ![saída por referência Java](https://github.com/mfevasconcelos/Fundamentos-Linguagens-UFC/blob/main/06-subprogramas/sa%C3%ADdas/saida-por-referencia-java.png)
 
 - Quando modificarPessoa é chamado com pessoa como parâmetro, a referência para o objeto Pessoa("Victor", 23) é passado.
