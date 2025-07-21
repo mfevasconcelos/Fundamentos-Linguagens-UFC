@@ -2,6 +2,7 @@
 Este sub-repositório armazena um script para automatização de criação de flashcards de estudo.
 
 No script em python, é possível automatizar criação de flashcards em softwares como Anki. 
+
 Sem que o usuário precise criar flashcard por flashcard, ele apenas escreve os termos e definições estudados num arquivo vocabulario.txt e utiliza o script para criação de um novo arquivo já em formato próprio para Anki.
 
 ## Roteiro do Script:
@@ -18,4 +19,8 @@ Sem que o usuário precise criar flashcard por flashcard, ele apenas escreve os 
 
 Exemplo de entrada de dados (vocabulario.txt):
 
+![Arquivo vocabulario.txt](https://github.com/mfevasconcelos/Fundamentos-Linguagens-UFC/blob/main/13-scripts-web/img/vocabulario.png)
+
 Exemplo de saída de dados (importar_anki.txt):
+
+![Arquivo importar_anki.txt](https://github.com/mfevasconcelos/Fundamentos-Linguagens-UFC/blob/main/13-scripts-web/img/importar_anki.png)
